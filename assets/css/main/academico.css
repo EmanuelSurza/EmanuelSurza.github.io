@@ -1,0 +1,46 @@
+.academico{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7f5eb;
+}
+
+.ac{
+    display: flex;
+    width: 18rem;
+    height: 12rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+}
+
+.academico__div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.img__academico{
+    margin: 3rem 0 0 1rem;
+    width: 16rem;
+    height: 6rem;
+}
+
+.img__ac2{
+    margin: 3rem 0 0 4rem;
+    width: 10rem;
+    height: 6rem;
+}
+
+.academico__link{
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.academico__year{
+    font-size: .85rem;
+    color: #555555;
+    font-weight: 600;
+}

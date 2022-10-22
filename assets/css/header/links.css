@@ -1,0 +1,33 @@
+.links{
+    display: flex;
+    justify-content: center;
+}
+
+.link__lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.link__item{
+    list-style: none;
+    margin-right: 1.5rem;
+}
+
+.link__item:last-child{
+    margin-right: 0;
+}
+
+.link{
+    color: #cc7722;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 0.85rem;
+}
+
+.link:hover{
+    color: #cc7733;
+    font-weight: 400;
+    font-size: 1.05rem;
+}

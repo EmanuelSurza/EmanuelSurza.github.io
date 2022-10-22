@@ -1,0 +1,53 @@
+.nombre{
+    margin: 0;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid #e4b61e;
+}
+
+.menu__lista{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem 1rem;
+}
+
+.menu__item{
+    list-style: none;
+    margin-right: 1rem;
+}
+
+.menu__link{
+    color: #cc7722;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 1.25rem;
+}
+
+.menu__link:hover{
+    color: #ee9944;
+    font-weight: 400;
+    font-size: 1.35rem;
+}
+
+.gmail{
+    color: #111;
+    font-weight: 400;
+}
+
+.gmail:hover{
+    color: #333;
+    font-weight: 700;
+    font-size: 1.30rem;
+}
